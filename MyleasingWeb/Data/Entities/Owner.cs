@@ -24,9 +24,10 @@ namespace MyleasingWeb.Data.Entities
         [Required(ErrorMessage = "The field {0} is mandatory.")]
         public string LastName { get; set; }
 
-        [MaxLength(20, ErrorMessage = "The {0} field can not have more than {1} characters.")]
-        [Required(ErrorMessage = "The field {0} is mandatory.")]
+       // [MaxLength(20, ErrorMessage = "The {0} field can not have more than {1} characters.")]
+       // [Required(ErrorMessage = "The field {0} is mandatory.")]
         public string Adress { get; set; }
+
 
         [MaxLength(20, ErrorMessage = "The {0} field can not have more than {1} characters.")]
         [Required(ErrorMessage = "The field {0} is mandatory.")]
